@@ -1,0 +1,32 @@
+name: Pruebas de software
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pruebas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+      - name: Restaurar dependencias
+        run: dotnet restore DemoTesting.slnx
+      - name: Compilar sin advertencias
+        run: dotnet build DemoTesting.slnx --configuration Release --no-restore --warnaserror
+      - name: Ejecutar todas las pruebas
+        run: dotnet test DemoTesting.slnx --configuration Release --no-build --no-restore --logger "console;verbosity=normal" --logger "trx;LogFileName=resultados.trx" --results-directory TestResults --collect "XPlat Code Coverage"
+      - name: Publicar resultados y cobertura
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: resultados-pruebas
+          path: TestResults/
+          if-no-files-found: warn
