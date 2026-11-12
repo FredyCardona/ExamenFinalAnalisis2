@@ -1,0 +1,13 @@
+**/bin/
+**/obj/
+.vs/
+.idea/
+.dotnet-home/
+*.user
+*.suo
+*.db
+*.db-shm
+*.db-wal
+TestResults/
+artifacts/
+!evidencias/
