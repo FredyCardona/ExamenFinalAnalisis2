@@ -1,0 +1,13 @@
+{
+  "inicio": "2026-11-11T21:53:28.5370072-06:00",
+  "fin": "2026-11-11T21:53:40.5798336-06:00",
+  "revisionCodigo": "b0bd3ba111c8fbe246bbeaf5c8c43ffbe18d54ef",
+  "sdk": "10.0.301",
+  "total": 18,
+  "correctas": 18,
+  "fallidas": 0,
+  "omitidas": 0,
+  "unitarias": 11,
+  "integracion": 3,
+  "api": 4
+}

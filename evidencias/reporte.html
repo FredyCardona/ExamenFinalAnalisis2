@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>Evidencias - ExamenFinalAnalisis2</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#edf2f7;color:#172539;font:16px 'Segoe UI',sans-serif}
+main{max-width:1480px;margin:26px auto;padding:30px;background:white;border:1px solid #d3dce8;border-radius:14px}
+h1{margin:0 0 8px;font-size:30px}h2{font-size:23px;margin:26px 0 12px}.muted{color:#52647b}
+.stats{display:flex;gap:14px;margin:22px 0}.stat{flex:1;padding:16px;background:#edf8f3;border:1px solid #a9d4bd;border-radius:8px}
+.stat strong{font-size:32px;display:block;color:#12673d}.command{background:#172539;color:white;padding:14px;border-radius:8px;font:14px Consolas,monospace}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;padding:10px;border-bottom:1px solid #e0e6ed}
+th{background:#eff3f8}td:nth-child(2){color:#12673d;font-weight:600}.nuevo{background:#edf8f3}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#101b2c;color:#e1ecf5;padding:22px;border-radius:9px;font:13px/1.5 Consolas,monospace}
+a{color:#1558b0}.meta{font:13px Consolas,monospace;overflow-wrap:anywhere}
+</style></head><body><main>
+<h1>Examen final · Pruebas de software</h1>
+<p class="muted">FredyCardona/ExamenFinalAnalisis2 · Ejecución real: 2026-11-11 21:53:28 -06:00</p>
+<p class="meta">Código probado: b0bd3ba111c8fbe246bbeaf5c8c43ffbe18d54ef · SDK .NET 10.0.301 · Release</p>
+<div class="stats"><div class="stat"><strong>18</strong>Pruebas ejecutadas</div><div class="stat"><strong>18</strong>Correctas</div><div class="stat"><strong>0</strong>Fallidas</div><div class="stat"><strong>0</strong>Omitidas</div></div>
+<div class="command">dotnet test DemoTesting.slnx --configuration Release --no-build --no-restore --logger "console;verbosity=normal" --logger "trx;LogFileName=resultados.trx" --results-directory evidencias/resultados --collect "XPlat Code Coverage"</div>
+<h2>Resultados de toda la suite</h2>
+<p class="muted">11 unitarias · 3 de integración con SQLite · 4 de API con HttpClient y WebApplicationFactory.<br>Las cuatro filas verdes corresponden a los casos nuevos del examen. Datos extraídos directamente del archivo TRX.</p>
+<table><thead><tr><th>Prueba</th><th>Resultado TRX</th><th>Duración</th></tr></thead><tbody><tr class="nuevo"><td>Api.ClientesApiTests.ObtenerPorId_ClienteExistente_DebeRetornar200YClienteEsperado</td><td>Passed</td><td>00:00:00.6851045</td></tr>
+<tr class="nuevo"><td>Api.ClientesApiTests.ObtenerPorId_ClienteInexistente_DebeRetornar404</td><td>Passed</td><td>00:00:00.0923393</td></tr>
+<tr><td>Api.ClientesApiTests.Registrar_ClienteValido_DebeRetornar201</td><td>Passed</td><td>00:00:00.0434739</td></tr>
+<tr><td>Api.ClientesApiTests.Registrar_NombreVacio_DebeRetornar400</td><td>Passed</td><td>00:00:00.0289927</td></tr>
+<tr class="nuevo"><td>Integracion.ClienteRepositoryTests.ObtenerPorId_ClienteInexistente_DebeRetornarNullDesdeSQLite</td><td>Passed</td><td>00:00:00.0294610</td></tr>
+<tr><td>Integracion.ClienteRepositoryTests.Registrar_ClienteValido_DebePersistirEnSQLite</td><td>Passed</td><td>00:00:00.0191324</td></tr>
+<tr><td>Integracion.ClienteRepositoryTests.Registrar_CorreoDuplicado_DebeRechazarSegundoCliente</td><td>Passed</td><td>00:00:00.2175545</td></tr>
+<tr><td>Unitarias.ClienteServiceTests.EsCorreoValido_CorreoCorrecto_DebeRetornarTrue</td><td>Passed</td><td>00:00:00.0002588</td></tr>
+<tr><td>Unitarias.ClienteServiceTests.EsCorreoValido_CorreoSinArroba_DebeRetornarFalse</td><td>Passed</td><td>00:00:00.0007275</td></tr>
+<tr><td>Unitarias.ClienteServiceTests.EsCorreoValido_CorreoVacio_DebeRetornarFalse</td><td>Passed</td><td>00:00:00.0000915</td></tr>
+<tr><td>Unitarias.ClienteServiceTests.EsCorreoValido_DebeRetornarResultadoEsperado(correo: &quot;&quot;, esperado: False)</td><td>Passed</td><td>00:00:00.0000547</td></tr>
+<tr><td>Unitarias.ClienteServiceTests.EsCorreoValido_DebeRetornarResultadoEsperado(correo: &quot;cliente&quot;, esperado: False)</td><td>Passed</td><td>00:00:00.0028959</td></tr>
+<tr><td>Unitarias.ClienteServiceTests.EsCorreoValido_DebeRetornarResultadoEsperado(correo: &quot;cliente@gmail.com&quot;, esperado: True)</td><td>Passed</td><td>00:00:00.0003333</td></tr>
+<tr class="nuevo"><td>Unitarias.ClienteServiceTests.ObtenerPorId_ClienteExistente_DebeRetornarClienteYConsultarUnaVez</td><td>Passed</td><td>00:00:00.0085165</td></tr>
+<tr><td>Unitarias.ClienteServiceTests.Registrar_CorreoDuplicado_DebeLanzarExcepcion</td><td>Passed</td><td>00:00:00.0007247</td></tr>
+<tr><td>Unitarias.ClienteServiceTests.Registrar_CorreoInvalido_DebeLanzarExcepcion</td><td>Passed</td><td>00:00:00.0007288</td></tr>
+<tr><td>Unitarias.ClienteServiceTests.Registrar_DatosValidos_DebeRegistrarCliente</td><td>Passed</td><td>00:00:00.0264699</td></tr>
+<tr><td>Unitarias.ClienteServiceTests.Registrar_NombreVacio_DebeLanzarExcepcion</td><td>Passed</td><td>00:00:00.2421112</td></tr></tbody></table>
+<p><a href="resultados/resultados.trx">Resultado TRX original</a> · <a href="ejecucion.txt">Registro completo</a> · <a href="resumen.json">Resumen JSON</a></p>
+<h2 id="ejecucion">Salida real de restauración, compilación y pruebas</h2>
+<pre>EXAMEN FINAL - PRUEBAS DE SOFTWARE
+Inicio: 2026-11-11T21:53:28.5370072-06:00
+Revision de codigo: b0bd3ba111c8fbe246bbeaf5c8c43ffbe18d54ef
+SDK .NET: 10.0.301
+Sistema: Microsoft Windows NT 10.0.26200.0
+
+
+&gt; dotnet restore DemoTesting.slnx --verbosity minimal
+  Determinando los proyectos que se van a restaurar...
+  Todos los proyectos est&#225;n actualizados para la restauraci&#243;n.
+
+&gt; dotnet build DemoTesting.slnx --configuration Release --no-restore --warnaserror
+  ClienteApp.Core -&gt; C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp\bin\Release\net10.0\ClienteApp.Core.dll
+  ClienteApp.Api -&gt; C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Api\bin\Release\net10.0\ClienteApp.Api.dll
+  ClienteApp.Tests -&gt; C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Tests\bin\Release\net10.0\ClienteApp.Tests.dll
+
+Compilaci&#243;n correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:03.06
+
+&gt; dotnet test DemoTesting.slnx --configuration Release --no-build --no-restore --logger console;verbosity=normal --logger trx;LogFileName=resultados.trx --results-directory C:\Users\Flex\Desktop\ExamenFinalAnalisis\evidencias\resultados --collect XPlat Code Coverage
+Serie de pruebas para C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Tests\bin\Release\net10.0\ClienteApp.Tests.dll (.NETCoreApp,Version=v10.0)
+1 archivos de prueba en total coincidieron con el patr&#243;n especificado.
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.9)
+[xUnit.net 00:00:00.36]   Discovering: ClienteApp.Tests
+[xUnit.net 00:00:00.44]   Discovered:  ClienteApp.Tests
+[xUnit.net 00:00:00.48]   Starting:    ClienteApp.Tests
+  Correctas ClienteApp.Tests.Integracion.ClienteRepositoryTests.Registrar_CorreoDuplicado_DebeRechazarSegundoCliente [217 ms]
+  Correctas ClienteApp.Tests.Unitarias.ClienteServiceTests.Registrar_NombreVacio_DebeLanzarExcepcion [242 ms]
+  Correctas ClienteApp.Tests.Integracion.ClienteRepositoryTests.ObtenerPorId_ClienteInexistente_DebeRetornarNullDesdeSQLite [29 ms]
+  Correctas ClienteApp.Tests.Unitarias.ClienteServiceTests.Registrar_DatosValidos_DebeRegistrarCliente [26 ms]
+  Correctas ClienteApp.Tests.Unitarias.ClienteServiceTests.EsCorreoValido_CorreoSinArroba_DebeRetornarFalse [&lt; 1 ms]
+  Correctas ClienteApp.Tests.Integracion.ClienteRepositoryTests.Registrar_ClienteValido_DebePersistirEnSQLite [19 ms]
+  Correctas ClienteApp.Tests.Unitarias.ClienteServiceTests.EsCorreoValido_DebeRetornarResultadoEsperado(correo: &quot;cliente&quot;, esperado: False) [2 ms]
+  Correctas ClienteApp.Tests.Unitarias.ClienteServiceTests.EsCorreoValido_DebeRetornarResultadoEsperado(correo: &quot;cliente@gmail.com&quot;, esperado: True) [&lt; 1 ms]
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+  Correctas ClienteApp.Tests.Unitarias.ClienteServiceTests.EsCorreoValido_DebeRetornarResultadoEsperado(correo: &quot;&quot;, esperado: False) [&lt; 1 ms]
+  Correctas ClienteApp.Tests.Unitarias.ClienteServiceTests.ObtenerPorId_ClienteExistente_DebeRetornarClienteYConsultarUnaVez [8 ms]
+  Correctas ClienteApp.Tests.Unitarias.ClienteServiceTests.Registrar_CorreoInvalido_DebeLanzarExcepcion [&lt; 1 ms]
+  Correctas ClienteApp.Tests.Unitarias.ClienteServiceTests.Registrar_CorreoDuplicado_DebeLanzarExcepcion [&lt; 1 ms]
+  Correctas ClienteApp.Tests.Unitarias.ClienteServiceTests.EsCorreoValido_CorreoCorrecto_DebeRetornarTrue [&lt; 1 ms]
+  Correctas ClienteApp.Tests.Unitarias.ClienteServiceTests.EsCorreoValido_CorreoVacio_DebeRetornarFalse [&lt; 1 ms]
+  Correctas ClienteApp.Tests.Api.ClientesApiTests.ObtenerPorId_ClienteExistente_DebeRetornar200YClienteEsperado [685 ms]
+  Correctas ClienteApp.Tests.Api.ClientesApiTests.ObtenerPorId_ClienteInexistente_DebeRetornar404 [92 ms]
+  Correctas ClienteApp.Tests.Api.ClientesApiTests.Registrar_NombreVacio_DebeRetornar400 [28 ms]
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[xUnit.net 00:00:01.38]   Finished:    ClienteApp.Tests
+  Correctas ClienteApp.Tests.Api.ClientesApiTests.Registrar_ClienteValido_DebeRetornar201 [43 ms]
+
+La serie de pruebas se ejecut&#243; correctamente.
+Pruebas totales: 18
+     Correcto: 18
+ Tiempo total: 4.3073 Segundos
+Archivo de resultados: C:\Users\Flex\Desktop\ExamenFinalAnalisis\evidencias\resultados\resultados.trx
+
+Datos adjuntos:
+  C:\Users\Flex\Desktop\ExamenFinalAnalisis\evidencias\resultados\0976fafa-36d8-41a1-a941-05f097ea8f06\coverage.cobertura.xml
+</pre>
+</main></body></html>

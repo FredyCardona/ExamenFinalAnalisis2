@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="9cfe657e-dada-4b68-bc19-0efb7dbe6215" name="Flex@DESKTOP-BOKFUIU 2026-11-11 21:53:38" runUser="DESKTOP-BOKFUIU\Flex" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-11-11T21:53:38.9886727-06:00" queuing="2026-11-11T21:53:38.9886733-06:00" start="2026-11-11T21:53:35.7748222-06:00" finish="2026-11-11T21:53:40.1007476-06:00" />
+  <TestSettings name="default" id="f3550df2-69f2-4927-9f2f-54e39f8e08f5">
+    <Deployment runDeploymentRoot="Flex_DESKTOP-BOKFUIU_2026-11-11_21_53_38" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="87a988fa-ad42-4772-b028-f63898d8586c" testId="d13dc16d-5d50-11ab-2ab2-5053706a93ec" testName="ClienteApp.Tests.Unitarias.ClienteServiceTests.EsCorreoValido_DebeRetornarResultadoEsperado(correo: &quot;cliente@gmail.com&quot;, esperado: True)" computerName="DESKTOP-BOKFUIU" duration="00:00:00.0003333" startTime="2026-11-11T21:53:38.9028918-06:00" endTime="2026-11-11T21:53:38.9029948-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87a988fa-ad42-4772-b028-f63898d8586c" />
+    <UnitTestResult executionId="b9e95457-e506-43cb-a96a-3ae948497a7e" testId="bce666d0-fa8f-b238-7797-c18c51331f77" testName="ClienteApp.Tests.Unitarias.ClienteServiceTests.Registrar_NombreVacio_DebeLanzarExcepcion" computerName="DESKTOP-BOKFUIU" duration="00:00:00.2421112" startTime="2026-11-11T21:53:38.6524785-06:00" endTime="2026-11-11T21:53:38.8787845-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9e95457-e506-43cb-a96a-3ae948497a7e" />
+    <UnitTestResult executionId="76f09329-00be-426b-a952-269d920fcc77" testId="7c8ba25d-68a0-dbbf-db1d-419876db21cf" testName="ClienteApp.Tests.Unitarias.ClienteServiceTests.ObtenerPorId_ClienteExistente_DebeRetornarClienteYConsultarUnaVez" computerName="DESKTOP-BOKFUIU" duration="00:00:00.0085165" startTime="2026-11-11T21:53:38.9318637-06:00" endTime="2026-11-11T21:53:38.9330732-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76f09329-00be-426b-a952-269d920fcc77" />
+    <UnitTestResult executionId="07e40e80-b1f2-4caa-85f9-c5eb44265ff4" testId="7a3214c6-a64c-be03-1436-3236b391a4d4" testName="ClienteApp.Tests.Unitarias.ClienteServiceTests.Registrar_CorreoDuplicado_DebeLanzarExcepcion" computerName="DESKTOP-BOKFUIU" duration="00:00:00.0007247" startTime="2026-11-11T21:53:38.9349659-06:00" endTime="2026-11-11T21:53:38.9350392-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07e40e80-b1f2-4caa-85f9-c5eb44265ff4" />
+    <UnitTestResult executionId="9b7b3f9a-c1f1-4300-97e3-42cfd51ed6da" testId="a5a524a3-469c-1b7d-8d20-798998589066" testName="ClienteApp.Tests.Unitarias.ClienteServiceTests.EsCorreoValido_DebeRetornarResultadoEsperado(correo: &quot;cliente&quot;, esperado: False)" computerName="DESKTOP-BOKFUIU" duration="00:00:00.0028959" startTime="2026-11-11T21:53:38.8988841-06:00" endTime="2026-11-11T21:53:38.9015232-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b7b3f9a-c1f1-4300-97e3-42cfd51ed6da" />
+    <UnitTestResult executionId="0e4e0310-9616-46a4-b7f7-e3062688534d" testId="054d170e-0793-36d7-0c15-6fafbc8cdd0b" testName="ClienteApp.Tests.Unitarias.ClienteServiceTests.Registrar_DatosValidos_DebeRegistrarCliente" computerName="DESKTOP-BOKFUIU" duration="00:00:00.0264699" startTime="2026-11-11T21:53:38.8813743-06:00" endTime="2026-11-11T21:53:38.8955431-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e4e0310-9616-46a4-b7f7-e3062688534d" />
+    <UnitTestResult executionId="8b336a40-c4d2-49c4-ae38-40149e55af67" testId="88ecea73-cb26-0259-c67a-6e296d659d19" testName="ClienteApp.Tests.Integracion.ClienteRepositoryTests.Registrar_CorreoDuplicado_DebeRechazarSegundoCliente" computerName="DESKTOP-BOKFUIU" duration="00:00:00.2175545" startTime="2026-11-11T21:53:38.6510282-06:00" endTime="2026-11-11T21:53:38.8482347-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b336a40-c4d2-49c4-ae38-40149e55af67" />
+    <UnitTestResult executionId="3bd13fed-3a16-41ab-9556-75a6c87cf8fd" testId="59befe5c-5788-a7c0-4944-683e491b0ebb" testName="ClienteApp.Tests.Api.ClientesApiTests.Registrar_ClienteValido_DebeRetornar201" computerName="DESKTOP-BOKFUIU" duration="00:00:00.0434739" startTime="2026-11-11T21:53:39.4480443-06:00" endTime="2026-11-11T21:53:39.4885526-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3bd13fed-3a16-41ab-9556-75a6c87cf8fd" />
+    <UnitTestResult executionId="ce6b5067-83ec-4766-8345-3039720cccb9" testId="0900d4cf-d335-41fc-a8f5-784cb4f8d87f" testName="ClienteApp.Tests.Api.ClientesApiTests.ObtenerPorId_ClienteInexistente_DebeRetornar404" computerName="DESKTOP-BOKFUIU" duration="00:00:00.0923393" startTime="2026-11-11T21:53:39.3221402-06:00" endTime="2026-11-11T21:53:39.4146666-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce6b5067-83ec-4766-8345-3039720cccb9" />
+    <UnitTestResult executionId="61fdfe78-7be4-4c2b-92be-c2cf858136f3" testId="5158317a-0ee4-940a-db69-c9282f21fe45" testName="ClienteApp.Tests.Unitarias.ClienteServiceTests.EsCorreoValido_CorreoSinArroba_DebeRetornarFalse" computerName="DESKTOP-BOKFUIU" duration="00:00:00.0007275" startTime="2026-11-11T21:53:38.8971796-06:00" endTime="2026-11-11T21:53:38.8973212-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61fdfe78-7be4-4c2b-92be-c2cf858136f3" />
+    <UnitTestResult executionId="0d064c14-6f0a-478e-a13d-3d92b43be2b2" testId="5abe74e8-d85b-545c-3a2a-f48129fa8872" testName="ClienteApp.Tests.Unitarias.ClienteServiceTests.Registrar_CorreoInvalido_DebeLanzarExcepcion" computerName="DESKTOP-BOKFUIU" duration="00:00:00.0007288" startTime="2026-11-11T21:53:38.9340095-06:00" endTime="2026-11-11T21:53:38.9340840-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0d064c14-6f0a-478e-a13d-3d92b43be2b2" />
+    <UnitTestResult executionId="475f2ef5-392f-4e9b-b244-08b6dbd9650f" testId="b22ac8c5-e4f6-197c-0f37-3dbe710b3681" testName="ClienteApp.Tests.Integracion.ClienteRepositoryTests.Registrar_ClienteValido_DebePersistirEnSQLite" computerName="DESKTOP-BOKFUIU" duration="00:00:00.0191324" startTime="2026-11-11T21:53:38.8829689-06:00" endTime="2026-11-11T21:53:38.8991230-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="475f2ef5-392f-4e9b-b244-08b6dbd9650f" />
+    <UnitTestResult executionId="4107d42c-5c23-4079-a2cb-3660fbef3fd4" testId="ad5aa6ad-c5a4-cb15-14f4-90aaf5dc6b80" testName="ClienteApp.Tests.Unitarias.ClienteServiceTests.EsCorreoValido_DebeRetornarResultadoEsperado(correo: &quot;&quot;, esperado: False)" computerName="DESKTOP-BOKFUIU" duration="00:00:00.0000547" startTime="2026-11-11T21:53:38.9305417-06:00" endTime="2026-11-11T21:53:38.9306469-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4107d42c-5c23-4079-a2cb-3660fbef3fd4" />
+    <UnitTestResult executionId="8c742332-a3a5-4e84-a875-0f82cdac66c4" testId="5c62925c-d0e1-5785-91f8-e56597ff0b24" testName="ClienteApp.Tests.Api.ClientesApiTests.ObtenerPorId_ClienteExistente_DebeRetornar200YClienteEsperado" computerName="DESKTOP-BOKFUIU" duration="00:00:00.6851045" startTime="2026-11-11T21:53:38.6524155-06:00" endTime="2026-11-11T21:53:39.3200538-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c742332-a3a5-4e84-a875-0f82cdac66c4" />
+    <UnitTestResult executionId="f44488d6-16c7-444b-a9c2-c8850792a2a0" testId="7c701a5e-47ff-3d57-2951-8246f1cb1b23" testName="ClienteApp.Tests.Integracion.ClienteRepositoryTests.ObtenerPorId_ClienteInexistente_DebeRetornarNullDesdeSQLite" computerName="DESKTOP-BOKFUIU" duration="00:00:00.0294610" startTime="2026-11-11T21:53:38.8786419-06:00" endTime="2026-11-11T21:53:38.8816075-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f44488d6-16c7-444b-a9c2-c8850792a2a0" />
+    <UnitTestResult executionId="c33bc8f4-9f4f-49ac-b428-d7b67d811f43" testId="38cbba0f-5935-572f-7f7b-ca9b478ed6a7" testName="ClienteApp.Tests.Unitarias.ClienteServiceTests.EsCorreoValido_CorreoVacio_DebeRetornarFalse" computerName="DESKTOP-BOKFUIU" duration="00:00:00.0000915" startTime="2026-11-11T21:53:38.9371861-06:00" endTime="2026-11-11T21:53:38.9372576-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c33bc8f4-9f4f-49ac-b428-d7b67d811f43" />
+    <UnitTestResult executionId="86a8630d-db08-4b3c-8798-2fc0acafe74d" testId="06895317-aaa8-035d-0474-57f801c42bf7" testName="ClienteApp.Tests.Unitarias.ClienteServiceTests.EsCorreoValido_CorreoCorrecto_DebeRetornarTrue" computerName="DESKTOP-BOKFUIU" duration="00:00:00.0002588" startTime="2026-11-11T21:53:38.9359703-06:00" endTime="2026-11-11T21:53:38.9361456-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86a8630d-db08-4b3c-8798-2fc0acafe74d" />
+    <UnitTestResult executionId="029a7696-3289-4797-bae7-d49af6ad3c95" testId="d4e4a6fc-9bc1-5fb1-b730-d06fe90f1484" testName="ClienteApp.Tests.Api.ClientesApiTests.Registrar_NombreVacio_DebeRetornar400" computerName="DESKTOP-BOKFUIU" duration="00:00:00.0289927" startTime="2026-11-11T21:53:39.4161502-06:00" endTime="2026-11-11T21:53:39.4444106-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="029a7696-3289-4797-bae7-d49af6ad3c95" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ClienteApp.Tests.Unitarias.ClienteServiceTests.EsCorreoValido_DebeRetornarResultadoEsperado(correo: &quot;cliente@gmail.com&quot;, esperado: True)" storage="c:\users\flex\desktop\examenfinalanalisis\clienteapp.tests\bin\release\net10.0\clienteapp.tests.dll" id="d13dc16d-5d50-11ab-2ab2-5053706a93ec">
+      <Execution id="87a988fa-ad42-4772-b028-f63898d8586c" />
+      <TestMethod codeBase="C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Tests\bin\Release\net10.0\ClienteApp.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ClienteApp.Tests.Unitarias.ClienteServiceTests" name="EsCorreoValido_DebeRetornarResultadoEsperado" />
+    </UnitTest>
+    <UnitTest name="ClienteApp.Tests.Api.ClientesApiTests.Registrar_ClienteValido_DebeRetornar201" storage="c:\users\flex\desktop\examenfinalanalisis\clienteapp.tests\bin\release\net10.0\clienteapp.tests.dll" id="59befe5c-5788-a7c0-4944-683e491b0ebb">
+      <Execution id="3bd13fed-3a16-41ab-9556-75a6c87cf8fd" />
+      <TestMethod codeBase="C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Tests\bin\Release\net10.0\ClienteApp.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ClienteApp.Tests.Api.ClientesApiTests" name="Registrar_ClienteValido_DebeRetornar201" />
+    </UnitTest>
+    <UnitTest name="ClienteApp.Tests.Api.ClientesApiTests.ObtenerPorId_ClienteExistente_DebeRetornar200YClienteEsperado" storage="c:\users\flex\desktop\examenfinalanalisis\clienteapp.tests\bin\release\net10.0\clienteapp.tests.dll" id="5c62925c-d0e1-5785-91f8-e56597ff0b24">
+      <Execution id="8c742332-a3a5-4e84-a875-0f82cdac66c4" />
+      <TestMethod codeBase="C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Tests\bin\Release\net10.0\ClienteApp.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ClienteApp.Tests.Api.ClientesApiTests" name="ObtenerPorId_ClienteExistente_DebeRetornar200YClienteEsperado" />
+    </UnitTest>
+    <UnitTest name="ClienteApp.Tests.Unitarias.ClienteServiceTests.EsCorreoValido_CorreoVacio_DebeRetornarFalse" storage="c:\users\flex\desktop\examenfinalanalisis\clienteapp.tests\bin\release\net10.0\clienteapp.tests.dll" id="38cbba0f-5935-572f-7f7b-ca9b478ed6a7">
+      <Execution id="c33bc8f4-9f4f-49ac-b428-d7b67d811f43" />
+      <TestMethod codeBase="C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Tests\bin\Release\net10.0\ClienteApp.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ClienteApp.Tests.Unitarias.ClienteServiceTests" name="EsCorreoValido_CorreoVacio_DebeRetornarFalse" />
+    </UnitTest>
+    <UnitTest name="ClienteApp.Tests.Api.ClientesApiTests.Registrar_NombreVacio_DebeRetornar400" storage="c:\users\flex\desktop\examenfinalanalisis\clienteapp.tests\bin\release\net10.0\clienteapp.tests.dll" id="d4e4a6fc-9bc1-5fb1-b730-d06fe90f1484">
+      <Execution id="029a7696-3289-4797-bae7-d49af6ad3c95" />
+      <TestMethod codeBase="C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Tests\bin\Release\net10.0\ClienteApp.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ClienteApp.Tests.Api.ClientesApiTests" name="Registrar_NombreVacio_DebeRetornar400" />
+    </UnitTest>
+    <UnitTest name="ClienteApp.Tests.Unitarias.ClienteServiceTests.EsCorreoValido_CorreoSinArroba_DebeRetornarFalse" storage="c:\users\flex\desktop\examenfinalanalisis\clienteapp.tests\bin\release\net10.0\clienteapp.tests.dll" id="5158317a-0ee4-940a-db69-c9282f21fe45">
+      <Execution id="61fdfe78-7be4-4c2b-92be-c2cf858136f3" />
+      <TestMethod codeBase="C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Tests\bin\Release\net10.0\ClienteApp.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ClienteApp.Tests.Unitarias.ClienteServiceTests" name="EsCorreoValido_CorreoSinArroba_DebeRetornarFalse" />
+    </UnitTest>
+    <UnitTest name="ClienteApp.Tests.Unitarias.ClienteServiceTests.ObtenerPorId_ClienteExistente_DebeRetornarClienteYConsultarUnaVez" storage="c:\users\flex\desktop\examenfinalanalisis\clienteapp.tests\bin\release\net10.0\clienteapp.tests.dll" id="7c8ba25d-68a0-dbbf-db1d-419876db21cf">
+      <Execution id="76f09329-00be-426b-a952-269d920fcc77" />
+      <TestMethod codeBase="C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Tests\bin\Release\net10.0\ClienteApp.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ClienteApp.Tests.Unitarias.ClienteServiceTests" name="ObtenerPorId_ClienteExistente_DebeRetornarClienteYConsultarUnaVez" />
+    </UnitTest>
+    <UnitTest name="ClienteApp.Tests.Unitarias.ClienteServiceTests.Registrar_NombreVacio_DebeLanzarExcepcion" storage="c:\users\flex\desktop\examenfinalanalisis\clienteapp.tests\bin\release\net10.0\clienteapp.tests.dll" id="bce666d0-fa8f-b238-7797-c18c51331f77">
+      <Execution id="b9e95457-e506-43cb-a96a-3ae948497a7e" />
+      <TestMethod codeBase="C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Tests\bin\Release\net10.0\ClienteApp.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ClienteApp.Tests.Unitarias.ClienteServiceTests" name="Registrar_NombreVacio_DebeLanzarExcepcion" />
+    </UnitTest>
+    <UnitTest name="ClienteApp.Tests.Unitarias.ClienteServiceTests.EsCorreoValido_DebeRetornarResultadoEsperado(correo: &quot;&quot;, esperado: False)" storage="c:\users\flex\desktop\examenfinalanalisis\clienteapp.tests\bin\release\net10.0\clienteapp.tests.dll" id="ad5aa6ad-c5a4-cb15-14f4-90aaf5dc6b80">
+      <Execution id="4107d42c-5c23-4079-a2cb-3660fbef3fd4" />
+      <TestMethod codeBase="C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Tests\bin\Release\net10.0\ClienteApp.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ClienteApp.Tests.Unitarias.ClienteServiceTests" name="EsCorreoValido_DebeRetornarResultadoEsperado" />
+    </UnitTest>
+    <UnitTest name="ClienteApp.Tests.Unitarias.ClienteServiceTests.EsCorreoValido_DebeRetornarResultadoEsperado(correo: &quot;cliente&quot;, esperado: False)" storage="c:\users\flex\desktop\examenfinalanalisis\clienteapp.tests\bin\release\net10.0\clienteapp.tests.dll" id="a5a524a3-469c-1b7d-8d20-798998589066">
+      <Execution id="9b7b3f9a-c1f1-4300-97e3-42cfd51ed6da" />
+      <TestMethod codeBase="C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Tests\bin\Release\net10.0\ClienteApp.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ClienteApp.Tests.Unitarias.ClienteServiceTests" name="EsCorreoValido_DebeRetornarResultadoEsperado" />
+    </UnitTest>
+    <UnitTest name="ClienteApp.Tests.Unitarias.ClienteServiceTests.Registrar_CorreoInvalido_DebeLanzarExcepcion" storage="c:\users\flex\desktop\examenfinalanalisis\clienteapp.tests\bin\release\net10.0\clienteapp.tests.dll" id="5abe74e8-d85b-545c-3a2a-f48129fa8872">
+      <Execution id="0d064c14-6f0a-478e-a13d-3d92b43be2b2" />
+      <TestMethod codeBase="C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Tests\bin\Release\net10.0\ClienteApp.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ClienteApp.Tests.Unitarias.ClienteServiceTests" name="Registrar_CorreoInvalido_DebeLanzarExcepcion" />
+    </UnitTest>
+    <UnitTest name="ClienteApp.Tests.Unitarias.ClienteServiceTests.Registrar_CorreoDuplicado_DebeLanzarExcepcion" storage="c:\users\flex\desktop\examenfinalanalisis\clienteapp.tests\bin\release\net10.0\clienteapp.tests.dll" id="7a3214c6-a64c-be03-1436-3236b391a4d4">
+      <Execution id="07e40e80-b1f2-4caa-85f9-c5eb44265ff4" />
+      <TestMethod codeBase="C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Tests\bin\Release\net10.0\ClienteApp.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ClienteApp.Tests.Unitarias.ClienteServiceTests" name="Registrar_CorreoDuplicado_DebeLanzarExcepcion" />
+    </UnitTest>
+    <UnitTest name="ClienteApp.Tests.Integracion.ClienteRepositoryTests.ObtenerPorId_ClienteInexistente_DebeRetornarNullDesdeSQLite" storage="c:\users\flex\desktop\examenfinalanalisis\clienteapp.tests\bin\release\net10.0\clienteapp.tests.dll" id="7c701a5e-47ff-3d57-2951-8246f1cb1b23">
+      <Execution id="f44488d6-16c7-444b-a9c2-c8850792a2a0" />
+      <TestMethod codeBase="C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Tests\bin\Release\net10.0\ClienteApp.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ClienteApp.Tests.Integracion.ClienteRepositoryTests" name="ObtenerPorId_ClienteInexistente_DebeRetornarNullDesdeSQLite" />
+    </UnitTest>
+    <UnitTest name="ClienteApp.Tests.Integracion.ClienteRepositoryTests.Registrar_CorreoDuplicado_DebeRechazarSegundoCliente" storage="c:\users\flex\desktop\examenfinalanalisis\clienteapp.tests\bin\release\net10.0\clienteapp.tests.dll" id="88ecea73-cb26-0259-c67a-6e296d659d19">
+      <Execution id="8b336a40-c4d2-49c4-ae38-40149e55af67" />
+      <TestMethod codeBase="C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Tests\bin\Release\net10.0\ClienteApp.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ClienteApp.Tests.Integracion.ClienteRepositoryTests" name="Registrar_CorreoDuplicado_DebeRechazarSegundoCliente" />
+    </UnitTest>
+    <UnitTest name="ClienteApp.Tests.Unitarias.ClienteServiceTests.Registrar_DatosValidos_DebeRegistrarCliente" storage="c:\users\flex\desktop\examenfinalanalisis\clienteapp.tests\bin\release\net10.0\clienteapp.tests.dll" id="054d170e-0793-36d7-0c15-6fafbc8cdd0b">
+      <Execution id="0e4e0310-9616-46a4-b7f7-e3062688534d" />
+      <TestMethod codeBase="C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Tests\bin\Release\net10.0\ClienteApp.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ClienteApp.Tests.Unitarias.ClienteServiceTests" name="Registrar_DatosValidos_DebeRegistrarCliente" />
+    </UnitTest>
+    <UnitTest name="ClienteApp.Tests.Unitarias.ClienteServiceTests.EsCorreoValido_CorreoCorrecto_DebeRetornarTrue" storage="c:\users\flex\desktop\examenfinalanalisis\clienteapp.tests\bin\release\net10.0\clienteapp.tests.dll" id="06895317-aaa8-035d-0474-57f801c42bf7">
+      <Execution id="86a8630d-db08-4b3c-8798-2fc0acafe74d" />
+      <TestMethod codeBase="C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Tests\bin\Release\net10.0\ClienteApp.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ClienteApp.Tests.Unitarias.ClienteServiceTests" name="EsCorreoValido_CorreoCorrecto_DebeRetornarTrue" />
+    </UnitTest>
+    <UnitTest name="ClienteApp.Tests.Api.ClientesApiTests.ObtenerPorId_ClienteInexistente_DebeRetornar404" storage="c:\users\flex\desktop\examenfinalanalisis\clienteapp.tests\bin\release\net10.0\clienteapp.tests.dll" id="0900d4cf-d335-41fc-a8f5-784cb4f8d87f">
+      <Execution id="ce6b5067-83ec-4766-8345-3039720cccb9" />
+      <TestMethod codeBase="C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Tests\bin\Release\net10.0\ClienteApp.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ClienteApp.Tests.Api.ClientesApiTests" name="ObtenerPorId_ClienteInexistente_DebeRetornar404" />
+    </UnitTest>
+    <UnitTest name="ClienteApp.Tests.Integracion.ClienteRepositoryTests.Registrar_ClienteValido_DebePersistirEnSQLite" storage="c:\users\flex\desktop\examenfinalanalisis\clienteapp.tests\bin\release\net10.0\clienteapp.tests.dll" id="b22ac8c5-e4f6-197c-0f37-3dbe710b3681">
+      <Execution id="475f2ef5-392f-4e9b-b244-08b6dbd9650f" />
+      <TestMethod codeBase="C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Tests\bin\Release\net10.0\ClienteApp.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ClienteApp.Tests.Integracion.ClienteRepositoryTests" name="Registrar_ClienteValido_DebePersistirEnSQLite" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="d13dc16d-5d50-11ab-2ab2-5053706a93ec" executionId="87a988fa-ad42-4772-b028-f63898d8586c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bce666d0-fa8f-b238-7797-c18c51331f77" executionId="b9e95457-e506-43cb-a96a-3ae948497a7e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7c8ba25d-68a0-dbbf-db1d-419876db21cf" executionId="76f09329-00be-426b-a952-269d920fcc77" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a3214c6-a64c-be03-1436-3236b391a4d4" executionId="07e40e80-b1f2-4caa-85f9-c5eb44265ff4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5a524a3-469c-1b7d-8d20-798998589066" executionId="9b7b3f9a-c1f1-4300-97e3-42cfd51ed6da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="054d170e-0793-36d7-0c15-6fafbc8cdd0b" executionId="0e4e0310-9616-46a4-b7f7-e3062688534d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="88ecea73-cb26-0259-c67a-6e296d659d19" executionId="8b336a40-c4d2-49c4-ae38-40149e55af67" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59befe5c-5788-a7c0-4944-683e491b0ebb" executionId="3bd13fed-3a16-41ab-9556-75a6c87cf8fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0900d4cf-d335-41fc-a8f5-784cb4f8d87f" executionId="ce6b5067-83ec-4766-8345-3039720cccb9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5158317a-0ee4-940a-db69-c9282f21fe45" executionId="61fdfe78-7be4-4c2b-92be-c2cf858136f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5abe74e8-d85b-545c-3a2a-f48129fa8872" executionId="0d064c14-6f0a-478e-a13d-3d92b43be2b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b22ac8c5-e4f6-197c-0f37-3dbe710b3681" executionId="475f2ef5-392f-4e9b-b244-08b6dbd9650f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad5aa6ad-c5a4-cb15-14f4-90aaf5dc6b80" executionId="4107d42c-5c23-4079-a2cb-3660fbef3fd4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c62925c-d0e1-5785-91f8-e56597ff0b24" executionId="8c742332-a3a5-4e84-a875-0f82cdac66c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7c701a5e-47ff-3d57-2951-8246f1cb1b23" executionId="f44488d6-16c7-444b-a9c2-c8850792a2a0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="38cbba0f-5935-572f-7f7b-ca9b478ed6a7" executionId="c33bc8f4-9f4f-49ac-b428-d7b67d811f43" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="06895317-aaa8-035d-0474-57f801c42bf7" executionId="86a8630d-db08-4b3c-8798-2fc0acafe74d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4e4a6fc-9bc1-5fb1-b730-d06fe90f1484" executionId="029a7696-3289-4797-bae7-d49af6ad3c95" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Resultados sin formato de lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="18" executed="18" passed="18" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.9)&#xD;
+[xUnit.net 00:00:00.36]   Discovering: ClienteApp.Tests&#xD;
+[xUnit.net 00:00:00.44]   Discovered:  ClienteApp.Tests&#xD;
+[xUnit.net 00:00:00.48]   Starting:    ClienteApp.Tests&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Api&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Api&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Api&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: C:\Users\Flex\Desktop\ExamenFinalAnalisis\ClienteApp.Api&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+[xUnit.net 00:00:01.38]   Finished:    ClienteApp.Tests&#xD;
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="DESKTOP-BOKFUIU" uri="datacollector://microsoft/CoverletCodeCoverage/1.0" collectorDisplayName="XPlat code coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="DESKTOP-BOKFUIU\coverage.cobertura.xml"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>
