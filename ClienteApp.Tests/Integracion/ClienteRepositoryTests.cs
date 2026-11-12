@@ -5,6 +5,7 @@ using ClienteApp.Core.Services;
 
 namespace ClienteApp.Tests.Integracion;
 
+[Trait("Categoria", "Integracion")]
 public class ClienteRepositoryTests : IDisposable
 {
     private readonly string _dbPath;
@@ -25,6 +26,24 @@ public class ClienteRepositoryTests : IDisposable
 
         // Utilizar el repositorio real.
         _repository = new ClienteRepository(_connectionString);
+    }
+
+    [Fact]
+    public void ObtenerPorId_ClienteInexistente_DebeRetornarNullDesdeSQLite()
+    {
+        // Arrange: servicio y repositorio reales, con una base SQLite poblada.
+        var service = new ClienteService(_repository);
+        var existente = service.Registrar("Ana López", "ana@example.com");
+        var idInexistente = existente.Id + 1;
+
+        // Comprobar que el mismo servicio sí puede recuperar el registro existente.
+        Assert.NotNull(service.ObtenerPorId(existente.Id));
+
+        // Act: consultar un identificador que no se ha insertado.
+        var resultado = service.ObtenerPorId(idInexistente);
+
+        // Assert: la consulta real a SQLite debe devolver null.
+        Assert.Null(resultado);
     }
 
     [Fact]
