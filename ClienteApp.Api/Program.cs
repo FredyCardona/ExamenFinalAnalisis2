@@ -10,22 +10,18 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Obtener la cadena de conexión desde appsettings.json
-var connectionString =
-    builder.Configuration.GetConnectionString("ClientesDb")
-    ?? throw new InvalidOperationException(
-        "No se configuró la cadena de conexión ClientesDb.");
-
 // Registrar dependencias de la aplicación
 builder.Services.AddScoped<IClienteRepository>(
-    _ => new ClienteRepository(connectionString));
+    services => new ClienteRepository(
+        ObtenerCadenaConexion(services.GetRequiredService<IConfiguration>())));
 
 builder.Services.AddScoped<ClienteService>();
 
 var app = builder.Build();
 
-// Inicializar la base de datos con la conexión configurada
-Database.Inicializar(connectionString);
+// Leer la configuración final después de Build también respeta las
+// sustituciones de WebApplicationFactory en las pruebas de API.
+Database.Inicializar(ObtenerCadenaConexion(app.Configuration));
 
 if (app.Environment.IsDevelopment())
 {
@@ -37,5 +33,12 @@ app.UseHttpsRedirection();
 app.MapControllers();
 
 app.Run();
+
+static string ObtenerCadenaConexion(IConfiguration configuration)
+{
+    return configuration.GetConnectionString("ClientesDb")
+        ?? throw new InvalidOperationException(
+            "No se configuró la cadena de conexión ClientesDb.");
+}
 
 public partial class Program { }
