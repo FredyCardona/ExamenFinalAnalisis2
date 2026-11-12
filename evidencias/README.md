@@ -2,10 +2,12 @@
 
 Resultados reales de la suite completa del proyecto, ejecutada en configuración Release.
 
+La ejecución remota del flujo actualizado terminó correctamente: [GitHub Actions, ejecución #3](https://github.com/FredyCardona/ExamenFinalAnalisis2/actions/runs/43151740726). La primera captura corresponde a esta ejecución; la segunda muestra el registro local completo publicado en el repositorio.
+
 | Archivo | Contenido |
 | --- | --- |
-| [01-resultados.png](01-resultados.png) | Captura de la ejecución automática satisfactoria en GitHub Actions. |
-| [02-ejecucion.png](02-ejecucion.png) | Captura del registro real de pruebas publicado en GitHub, con el resumen de 18 pruebas correctas. |
+| [01-resultados.jpg](01-resultados.jpg) | Captura de la ejecución automática satisfactoria en GitHub Actions. |
+| [02-ejecucion.jpg](02-ejecucion.jpg) | Captura del registro real de pruebas publicado en GitHub, con el resumen de 18 pruebas correctas. |
 | [ejecucion.txt](ejecucion.txt) | Salida original de los comandos, SDK y revisión del código probado. |
 | [resultados/resultados.trx](resultados/resultados.trx) | Reporte original emitido por VSTest, que puede abrirse en Visual Studio. |
 | [resumen.json](resumen.json) | Conteos y metadatos extraídos del TRX. |

@@ -17,9 +17,9 @@ Se conservaron las pruebas originales de validación, registro y persistencia. *
 
 Las capturas, el registro de consola, el TRX y la cobertura están en [evidencias](evidencias/README.md). Las capturas muestran la ejecución automática en GitHub Actions y la salida real de `dotnet test` publicada en este repositorio.
 
-![Ejecución automática en GitHub Actions](evidencias/01-resultados.png)
+![Ejecución automática en GitHub Actions](evidencias/01-resultados.jpg)
 
-![Salida de compilación y ejecución](evidencias/02-ejecucion.png)
+![Salida de compilación y ejecución](evidencias/02-ejecucion.jpg)
 
 ## Ejecutar el proyecto
 
@@ -47,7 +47,7 @@ Para regenerar las evidencias de resultados en Windows con PowerShell 7:
 pwsh -NoProfile -File ./scripts/Verificar-Pruebas.ps1
 ```
 
-El script restaura, compila tratando las advertencias como errores, ejecuta toda la suite con cobertura y genera `evidencias/reporte.html`, `ejecucion.txt`, `resumen.json` y `resultados/`. Devuelve un error si falla un comando o quedan pruebas fallidas u omitidas. Las capturas PNG corresponden a la ejecución entregada; después de regenerar los resultados, abrir el HTML y tomar nuevas capturas.
+El script restaura, compila tratando las advertencias como errores, ejecuta toda la suite con cobertura y genera `evidencias/reporte.html`, `ejecucion.txt`, `resumen.json` y `resultados/`. Devuelve un error si falla un comando o quedan pruebas fallidas u omitidas. Las capturas JPG corresponden a la ejecución entregada; después de regenerar los resultados, subir los reportes y tomar nuevas capturas de GitHub Actions y del registro publicado.
 
 Para iniciar la API y abrir Swagger en `http://localhost:5097/swagger`:
 
@@ -73,4 +73,4 @@ Moq se referencia desde el proyecto de pruebas y Swagger desde la API. El reposi
 
 ## Entrega
 
-Enlace del repositorio: **https://github.com/FredyCardona/ExamenFinalAnalisis2**. Adjuntar también las capturas [01-resultados.png](evidencias/01-resultados.png) y [02-ejecucion.png](evidencias/02-ejecucion.png), incluidas en el propio repositorio.
+Enlace del repositorio: **https://github.com/FredyCardona/ExamenFinalAnalisis2**. Adjuntar también las capturas [01-resultados.jpg](evidencias/01-resultados.jpg) y [02-ejecucion.jpg](evidencias/02-ejecucion.jpg), incluidas en el propio repositorio.
