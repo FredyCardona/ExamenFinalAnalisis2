@@ -1,10 +1,10 @@
 ﻿using ClienteApp.Core.Models;
-using ClienteApp.Core.Repositories;
 using ClienteApp.Core.Services;
 using Moq;
 
 namespace ClienteApp.Tests.Unitarias;
 
+[Trait("Categoria", "Unitaria")]
 public class ClienteServiceTests
 {
     private readonly Mock<IClienteRepository> _repositoryMock;
@@ -14,6 +14,31 @@ public class ClienteServiceTests
     {
         _repositoryMock = new Mock<IClienteRepository>();
         _service = new ClienteService(_repositoryMock.Object);
+    }
+
+    [Fact]
+    public void ObtenerPorId_ClienteExistente_DebeRetornarClienteYConsultarUnaVez()
+    {
+        // Arrange: el repositorio simulado conoce al cliente solicitado.
+        var esperado = new Cliente
+        {
+            Id = 42,
+            Nombre = "Ana López",
+            Correo = "ana@example.com"
+        };
+        _repositoryMock
+            .Setup(repository => repository.ObtenerPorId(esperado.Id))
+            .Returns(esperado);
+
+        // Act: consultar a través del servicio.
+        var resultado = _service.ObtenerPorId(esperado.Id);
+
+        // Assert: devolver exactamente el cliente y consultar una sola vez.
+        Assert.Same(esperado, resultado);
+        _repositoryMock.Verify(
+            repository => repository.ObtenerPorId(esperado.Id),
+            Times.Once);
+        _repositoryMock.VerifyNoOtherCalls();
     }
 
     [Fact]
